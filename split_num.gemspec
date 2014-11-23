@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SplitNum::VERSION
   spec.authors       = ["Ramon Tayag"]
   spec.email         = ["ramon.tayag@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Split a number into smaller parts by percentage and/or fixed values}
+  spec.description   = %q{Split a number into smaller parts by percentage and/or fixed values}
   spec.homepage      = ""
   spec.license       = "MIT"
 
