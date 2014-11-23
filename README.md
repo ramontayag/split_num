@@ -1,6 +1,26 @@
 # SplitNum
 
-TODO: Write a gem description
+A bunch of helpers to split a number into smaller parts, by percentage of fixed amounts.
+
+Example:
+
+```ruby
+n = 100.0
+SplitNum.split(n, {
+  fixed: 20,
+  percent: [10, 50, 40],
+})
+
+# Returns:
+{
+  fixed: 20.0,
+  percent: {
+    10 => 8.0,
+    50 => 40.0,
+    40 => 32.0,
+  }
+}
+```
 
 ## Installation
 
